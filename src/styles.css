@@ -25,6 +25,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+html{
+    background-color: var(--white);
+}
 body{
     background-color: var(--white);
     font-family: Worksans;

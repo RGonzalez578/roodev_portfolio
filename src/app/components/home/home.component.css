@@ -1,0 +1,54 @@
+.about-container{
+    margin: 0 auto;
+}
+.greetings h1{
+    font-family: Poppins-bold;
+    font-size: 4em;
+    color: var(--orange);
+}
+.greetings h2{
+    font-family: Poppins-bold;
+    font-size: 1.5em;
+    color: var(--black);
+}
+.greetings h3{
+    font-family: Poppins-mid;
+    font-size: 1.5em;
+    color: var(--black);
+}
+.greeting-btns{
+    margin: 2em 0;
+    padding: 0;
+}
+.resume{
+    margin-right: 1em;
+    padding: .5em 2.5em;
+    border: .1em solid var(--light-blue);
+    border-radius: 1.5em;
+    color: var(--light-blue);
+    text-decoration: none;
+}
+.resume:hover{
+    color: var(--white);
+    background-color: var(--light-blue);
+}
+.resume svg{
+    margin: .5em;
+    padding: 0;
+    width: 1em;
+    height: auto;
+}
+.lets-talk-link{
+    margin-left: 1em;
+    font-family: Poppins-mid;
+    font-size: 1em;
+    color: var(--light-blue);
+    text-decoration: none;
+}
+.lets-talk-link:hover{
+    color: var(--orange);
+}
+.container-img img{
+    width: 100%;
+    height: auto;
+}
