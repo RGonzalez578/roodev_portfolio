@@ -1,5 +1,9 @@
 .about-container{
     margin: 0 auto;
+    padding: 6em 0;
+}
+.greetings{
+    margin: auto 0;
 }
 .greetings h1{
     font-family: Poppins-bold;
@@ -13,7 +17,7 @@
 }
 .greetings h3{
     font-family: Poppins-mid;
-    font-size: 1.5em;
+    font-size: 1.2em;
     color: var(--black);
 }
 .greeting-btns{
@@ -26,6 +30,7 @@
     border: .1em solid var(--light-blue);
     border-radius: 1.5em;
     color: var(--light-blue);
+    font-family: Poppins-bold;
     text-decoration: none;
 }
 .resume:hover{
@@ -50,5 +55,45 @@
 }
 .container-img img{
     width: 100%;
+    height: auto;
+}
+.toggle-container{
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+.toggle-container hr{
+    margin-top: .5em;
+    margin-bottom: 2em;
+    margin-left: auto;
+    margin-right: 0;
+    width: 95%;
+}
+.toggle-header::after{
+    content: '';
+    display: block;
+    width: 100%;
+    height: 100px;
+    background-color: var(--black);
+}
+.toogle-header button{
+    margin: 0;
+    padding: .3em .7em;
+    width: fit-content;
+    height: auto;
+    border: .15em solid var(--orange);
+    color: var(--orange);
+    border-radius: .7em;
+    background-color: transparent;
+}
+.toogle-header p{
+    margin: auto 0;
+    padding: 0;
+    width: fit-content;
+    height: auto;
+    font-family: Poppins-bold;
+    color: var(--light-blue);
+}
+.toogle-header button svg{
+    width: 1em;
     height: auto;
 }

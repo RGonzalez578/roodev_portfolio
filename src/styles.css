@@ -7,6 +7,8 @@
     --white:#FAFAFA;
     --grey:#555555;
     --black:#282828;
+    --background:#FAFAFA;
+    --background-navbar:#11BADE;
 }
 @font-face {
     font-family: Poppins-bold;
@@ -26,9 +28,9 @@
     box-sizing: border-box;
 }
 html{
-    background-color: var(--white);
+    background-color: var(--background);
 }
 body{
-    background-color: var(--white);
+    background-color: var(--background);
     font-family: Worksans;
 }

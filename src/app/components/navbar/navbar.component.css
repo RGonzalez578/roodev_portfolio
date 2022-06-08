@@ -4,7 +4,7 @@ nav{
     flex-direction: column;
     width: fit-content;
     height: 100vh;
-    background-color: var(--light-blue);
+    background-color: var(--background-navbar);
     filter: drop-shadow(0px 5px 10px #84848486);
 }
 .logo{
@@ -38,7 +38,7 @@ nav{
     font-family: Poppins-bold;
     font-size: .8em;
     text-decoration: none;
-    transition: .5s;
+    transition: .2s;
 }
 .nav-options li a:hover{
     font-size: 1.4em;
