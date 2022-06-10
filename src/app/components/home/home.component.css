@@ -24,6 +24,13 @@
     margin: 2em 0;
     padding: 0;
 }
+.greeting-btns span svg{
+    margin: 0 1em;
+    padding: 0;
+    width: auto;
+    height: 1.7em;
+    color: var(--orange);
+}
 .resume{
     margin-right: 1em;
     padding: .5em 2.5em;
@@ -32,6 +39,7 @@
     color: var(--light-blue);
     font-family: Poppins-bold;
     text-decoration: none;
+    transition: .2s;
 }
 .resume:hover{
     color: var(--white);
@@ -49,6 +57,7 @@
     font-size: 1em;
     color: var(--light-blue);
     text-decoration: none;
+    transition: .2s;
 }
 .lets-talk-link:hover{
     color: var(--orange);
@@ -95,5 +104,19 @@
 }
 .toogle-header button svg{
     width: 1em;
+    height: auto;
+}
+.container-recent-proj{
+    margin: 0 auto;
+    padding: 0;
+    width: 90%;
+}
+.recent-proj{
+    margin: 0 auto;
+}
+.recent-proj img{
+    margin: 0;
+    padding: 0;
+    width: 100%;
     height: auto;
 }

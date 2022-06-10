@@ -1,0 +1,26 @@
+footer{
+    background-color: var(--blue);
+}
+h4{
+    color: var(--white);
+}
+.whatsapp-container{
+    margin: .5em 0;
+    padding: 0;
+}
+.whatsapp-container svg{
+    width: 2em;
+    height: auto;
+}
+.github-container{
+    margin: .5em 0;
+    padding: 0;
+}
+.gmail-container{
+    margin: .5em 0;
+    padding: 0;
+}
+.linkedin-container{
+    margin: .5em 0;
+    padding: 0;
+}

@@ -9,6 +9,9 @@
     --black:#282828;
     --background:#FAFAFA;
     --background-navbar:#11BADE;
+    --font-color-white:#FAFAFA;
+    --font-color-orange:#FFB800;
+    --font-color-blue:#11BADE;
 }
 @font-face {
     font-family: Poppins-bold;
@@ -32,5 +35,20 @@ html{
 }
 body{
     background-color: var(--background);
+    font-family: Worksans;
+}
+h1{
+    font-family: Poppins-bold;
+}
+h2{
+    font-family: Poppins-bold;
+}
+h3{
+    font-family: Poppins-bold;
+}
+h4{
+    font-family: Poppins-bold;
+}
+p{
     font-family: Worksans;
 }

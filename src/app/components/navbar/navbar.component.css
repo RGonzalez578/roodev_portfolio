@@ -10,12 +10,16 @@ nav{
 .logo{
     margin: 1.5em auto .5em auto;
 }
+.logo:hover svg{
+    color: var(--blue);
+}
 .logo svg{
     margin: .5em 1em;
     margin-top: 0;
     width: 1.5em;
     height: auto;
     color: var(--white);
+    transition: .2s;
 }
 .container-nav-opt{
     display: flex;
@@ -74,4 +78,8 @@ nav{
 .nav-networks li a svg{
     width: 1.1em;
     height: auto;
+    transition: .2s;
+}
+.nav-networks li a:hover svg{
+    color: var(--blue);
 }
