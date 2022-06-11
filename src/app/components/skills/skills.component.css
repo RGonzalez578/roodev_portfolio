@@ -1,0 +1,74 @@
+h1{
+    position: absolute;
+    margin-bottom: 0;
+    padding-top: 2em;
+    padding-bottom: 0;
+    font-family: Poppins-bold;
+    font-size: 2.1em;
+    color: var(--font-color-white);
+}
+h2{
+    margin: .2em auto;
+    font-family: Poppins-mid;
+    font-size: 2.1em;
+    color: var(--font-color-blue);
+}
+h3{
+    font-family: Poppins-bold;
+    font-size: 1em;
+    color: var(--font-color-blue);
+}
+p{
+    margin: 0 0 1.5em 0;
+}
+hr{
+    display: none;
+}
+.title{
+    position: relative;
+    width: 7em;
+    height: 6em;
+    background-color: var(--orange);
+}
+.cards{
+    margin: 2.5em 0;
+}
+.design-container{
+    padding: 0 3em;
+    text-align: center;
+}
+.developer-container{
+    padding: 0 3em;
+    text-align: center;
+}
+.design-logo{
+    margin: .5em auto;
+    width: 2.5em;
+    height: auto;
+    color: var(--font-color-blue);
+}
+.developer-logo{
+    margin: .5em auto;
+    width: 3em;
+    height: auto;
+    color: var(--font-color-blue);
+}
+.items{
+    margin: 0 auto;
+    width: fit-content;
+    text-align: left;
+}
+.item{
+    width: 100%;
+    margin: .5em 0;
+}
+.item svg{
+    margin: auto .8em auto 0;
+    width: 1.2em;
+    height: auto;
+    color: var(--font-color-blue);
+}
+.item p{
+    display: inline-block;
+    margin: auto 0;
+}

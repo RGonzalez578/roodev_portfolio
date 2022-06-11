@@ -5,7 +5,7 @@
     --blue:#3755C8;
     --purple:#871BC9;
     --white:#FAFAFA;
-    --grey:#555555;
+    --grey:#EBEBEB;
     --black:#282828;
     --background:#FAFAFA;
     --background-navbar:#11BADE;
@@ -36,6 +36,14 @@ html{
 body{
     background-color: var(--background);
     font-family: Worksans;
+}
+body::-webkit-scrollbar{
+    width: .4em;
+    background-color: var(--white);
+}
+::-webkit-scrollbar-thumb{
+    border-radius: 2em;
+    background-color: var(--light-blue);
 }
 h1{
     font-family: Poppins-bold;
