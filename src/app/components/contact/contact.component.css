@@ -1,0 +1,34 @@
+h1{
+    position: absolute;
+    margin-bottom: 0;
+    padding-top: 2em;
+    padding-bottom: 0;
+    font-family: Poppins-bold;
+    font-size: 2.1em;
+    color: var(--font-color-white);
+}
+h2{
+    width: 100%;
+    text-align: center;
+    font-size: 1.6em;
+}
+h3{
+    width: 100%;
+    text-align: center;
+    font-size: 1.2em;
+    font-family: Poppins-mid;
+}
+.title{
+    position: relative;
+    width: 10.2em;
+    height: 6em;
+    background-color: var(--orange);
+}
+.fields input{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+.fields input:focus{
+    border: .2em solid var(--orange);
+}
