@@ -18,14 +18,17 @@
 @font-face {
     font-family: Poppins-bold;
     src: url(./assets/fonts/poppins/Poppins-Bold.woff) format('woff');
+    font-display: swap;
 }
 @font-face {
     font-family: Poppins-mid;
     src:url(./assets/fonts/poppins/Poppins-Medium.woff) format('woff');
+    font-display: swap;
 }
 @font-face {
     font-family: Worksans;
     src:url(./assets/fonts/work_sans/WorkSans-Regular.woff) format('woff');
+    font-display: swap;
 }
 *{
     margin: 0;
