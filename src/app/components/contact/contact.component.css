@@ -8,15 +8,23 @@ h1{
     color: var(--font-color-white);
 }
 h2{
+    margin: .5em 0;
     width: 100%;
     text-align: center;
-    font-size: 1.6em;
+    font-size: 1.5em;
 }
 h3{
+    margin: 1em 0;
+    margin-bottom: 2em;
     width: 100%;
     text-align: center;
-    font-size: 1.2em;
+    font-size: 1.1em;
     font-family: Poppins-mid;
+}
+.fields-container{
+    margin: 3.5em auto;
+    padding: 0;
+    width: 70%;
 }
 .title{
     position: relative;
@@ -25,10 +33,49 @@ h3{
     background-color: var(--orange);
 }
 .fields input{
-    margin: 0;
-    padding: 0;
+    margin: 0 0 1em 0;
+    padding: .5em;
     width: 100%;
+    border: .05em solid var(--font-color-blue);
+    border-radius: 1em;
+    background-color: transparent;
+    color: var(--font-color-black);
+}
+.fields textarea{
+    margin: 0 0 1em 0;
+    padding: .5em;
+    width: 100%;
+    border: .05em solid var(--font-color-blue);
+    border-radius: 1em;
+    background-color: transparent;
+    color: var(--font-color-black);
+}
+.fields textarea:focus{
+    outline: none;
+    border-color: var(--orange);
 }
 .fields input:focus{
-    border: .2em solid var(--orange);
+    outline: none;
+    border-color: var(--orange);
+}
+.fields button{
+    margin: 0 auto;
+    padding: .5em 2em;
+    width: fit-content;
+    border: .05em solid var(--font-color-blue);
+    border-radius: 1em;
+    background-color: transparent;
+    color: var(--font-color-blue);
+    font-family: Poppins-bold;
+    font-size: 1em;
+}
+.fields button:hover{
+    background-color: var(--font-color-blue);
+    color: var(--font-color-white);
+    transition: .2s;
+}
+.fields button span svg{
+    margin-right: .7em;
+    width: 1.5em;
+    height: auto;
 }
