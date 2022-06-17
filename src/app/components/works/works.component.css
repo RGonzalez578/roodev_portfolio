@@ -55,7 +55,7 @@ h2{
 }
 .project-card{
     margin: .5em;
-    width: 23.6%;
+    width: 23%;
     background-color: var(--grey);
     border-radius: 1em;
     overflow: hidden;

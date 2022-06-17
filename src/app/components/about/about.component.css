@@ -71,18 +71,15 @@
     margin-bottom: 1em;
 }
 .toggle-container hr{
+    display: none;
     margin-top: .5em;
     margin-bottom: 2em;
     margin-left: auto;
     margin-right: 0;
-    width: 95%;
-}
-.toggle-header::after{
-    content: '';
-    display: block;
     width: 100%;
-    height: 100px;
-    background-color: var(--black);
+}
+.toogle-header{
+    margin-bottom: 1em;
 }
 .toogle-header button{
     margin: 0;
@@ -95,7 +92,7 @@
     background-color: transparent;
 }
 .toogle-header p{
-    margin: auto 0;
+    margin: auto 0 auto 1em;
     padding: 0;
     width: fit-content;
     height: auto;
@@ -109,7 +106,7 @@
 .container-recent-proj{
     margin: 0 auto;
     padding: 0;
-    width: 90%;
+    width: 95%;
 }
 .recent-proj{
     margin: 0 auto;

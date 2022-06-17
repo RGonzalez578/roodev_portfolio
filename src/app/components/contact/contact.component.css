@@ -37,7 +37,7 @@ h3{
     padding: .5em;
     width: 100%;
     border: .05em solid var(--font-color-blue);
-    border-radius: 1em;
+    border-radius: .5em;
     background-color: transparent;
     color: var(--font-color-black);
 }
@@ -46,9 +46,17 @@ h3{
     padding: .5em;
     width: 100%;
     border: .05em solid var(--font-color-blue);
-    border-radius: 1em;
+    border-radius: .5em;
     background-color: transparent;
     color: var(--font-color-black);
+}
+.fields textarea::-webkit-scrollbar{
+    width: .4em;
+    background-color: var(--white);
+}
+::-webkit-scrollbar-thumb{
+    border-radius: 2em;
+    background-color: var(--light-blue);
 }
 .fields textarea:focus{
     outline: none;
@@ -63,7 +71,7 @@ h3{
     padding: .5em 2em;
     width: fit-content;
     border: .05em solid var(--font-color-blue);
-    border-radius: 1em;
+    border-radius: .5em;
     background-color: transparent;
     color: var(--font-color-blue);
     font-family: Poppins-bold;
