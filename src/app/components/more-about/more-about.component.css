@@ -1,0 +1,13 @@
+.item{
+    margin: 0 .5em;
+    width: 100%;
+}
+.item svg{
+    margin: 0 auto;
+    width: 1.7em;
+    height: auto;
+    color: var(--font-color-orange);
+}
+.item p{
+    width: 100%
+}

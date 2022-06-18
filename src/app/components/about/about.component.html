@@ -29,7 +29,7 @@
         <div class="toggle-container">
             <div class="row">
                 <div class="col-12 toogle-header d-flex">
-                    <button><svg viewBox="0 0 25 37" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <button (click)="toggleSection()" id="toggle-btn"><svg viewBox="0 0 25 37" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path fill-rule="evenodd" clip-rule="evenodd" d="M11.4055 0.0393964C4.13247 0.478399 0.331873 4.4743 0 11.7003H7.33682C7.4287 9.19722 8.86868 7.326 11.5499 7.0501C14.1818 6.77906 16.6786 7.38724 17.4349 9.13294C18.2517 11.0187 16.418 13.2101 15.5461 14.1299C13.9324 15.8356 11.3112 17.0799 9.95243 18.9202C8.62056 20.7235 8.38369 23.0962 8.28119 26H14.7474C14.838 24.1433 14.9655 22.3649 15.8361 21.211C17.2524 19.3361 19.3674 18.4575 21.1398 16.9768C22.833 15.5615 24.6142 13.8559 24.9167 11.2158C25.8248 3.31433 19.1767 -0.431137 11.4055 0.0393964Z" fill="currentColor"/>
                     <path d="M12 37C14.2091 37 16 35.2091 16 33C16 30.7909 14.2091 29 12 29C9.79086 29 8 30.7909 8 33C8 35.2091 9.79086 37 12 37Z" fill="currentColor"/>
                     </svg>
@@ -39,9 +39,8 @@
             </div>
             <hr>
             <div class="row container-recent-proj">
-                <div class="col-sm-4"><a routerLink="/work" class="recent-proj"><img src="../../../assets/img/placeholder_img.svg" alt="placeholder"></a></div>
-                <div class="col-sm-4"><a routerLink="/work" class="recent-proj"><img src="../../../assets/img/placeholder_img.svg" alt="placeholder"></a></div>
-                <div class="col-sm-4"><a routerLink="/work" class="recent-proj"><img src="../../../assets/img/placeholder_img.svg" alt="placeholder"></a></div>
+                <app-recent-projects *ngIf=recentProjects></app-recent-projects>
+                <app-more-about *ngIf=moreInfo></app-more-about>
             </div>
         </div>
     </div>
