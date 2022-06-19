@@ -1,6 +1,6 @@
 .about-container{
     margin: 0 auto;
-    padding: 6em 0;
+    padding: 6em 0 0 0;
 }
 .greetings{
     margin: auto 0;
@@ -68,7 +68,7 @@
     height: auto;
 }
 .toggle-container{
-    margin-top: 3em;
+    margin-top: 4em;
     margin-bottom: 1em;
 }
 .toggle-container hr{
@@ -80,7 +80,7 @@
     width: 100%;
 }
 .toogle-header{
-    margin-bottom: 1em;
+    margin-bottom: 2em;
 }
 .toogle-header button{
     margin: 0;
@@ -91,6 +91,7 @@
     color: var(--orange);
     border-radius: .7em;
     background-color: transparent;
+    transition: .2s;
 }
 .toogle-header p{
     margin: auto 0 auto 1em;
@@ -107,5 +108,6 @@
 .container-recent-proj{
     margin: 0 auto;
     padding: 0;
-    width: 95%;
+    width: 100%;
+    min-height: 10em;
 }
