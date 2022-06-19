@@ -1,23 +1,23 @@
 .about-container{
     margin: 0 auto;
-    padding: 6em 0;
+    padding: 6em 0 0 0;
 }
 .greetings{
     margin: auto 0;
 }
 .greetings h1{
     font-family: Poppins-bold;
-    font-size: 4em;
+    font-size: 3.5em;
     color: var(--orange);
 }
 .greetings h2{
     font-family: Poppins-bold;
-    font-size: 1.5em;
+    font-size: 1.4em;
     color: var(--black);
 }
 .greetings h3{
     font-family: Poppins-mid;
-    font-size: 1.2em;
+    font-size: 1.1em;
     color: var(--black);
 }
 .greeting-btns{
@@ -34,12 +34,13 @@
 .resume{
     margin-right: 1em;
     padding: .5em 2.5em;
-    border: .1em solid var(--light-blue);
+    border: .15em solid var(--light-blue);
     border-radius: 1.5em;
     color: var(--light-blue);
     font-family: Poppins-bold;
     text-decoration: none;
     transition: .2s;
+    font-size: .9em;
 }
 .resume:hover{
     color: var(--white);
@@ -54,7 +55,7 @@
 .lets-talk-link{
     margin-left: 1em;
     font-family: Poppins-mid;
-    font-size: 1em;
+    font-size: .9em;
     color: var(--light-blue);
     text-decoration: none;
     transition: .2s;
@@ -67,22 +68,19 @@
     height: auto;
 }
 .toggle-container{
-    margin-top: 3em;
+    margin-top: 4em;
     margin-bottom: 1em;
 }
 .toggle-container hr{
+    display: none;
     margin-top: .5em;
     margin-bottom: 2em;
     margin-left: auto;
     margin-right: 0;
-    width: 95%;
-}
-.toggle-header::after{
-    content: '';
-    display: block;
     width: 100%;
-    height: 100px;
-    background-color: var(--black);
+}
+.toogle-header{
+    margin-bottom: 2em;
 }
 .toogle-header button{
     margin: 0;
@@ -93,9 +91,10 @@
     color: var(--orange);
     border-radius: .7em;
     background-color: transparent;
+    transition: .2s;
 }
 .toogle-header p{
-    margin: auto 0;
+    margin: auto 0 auto 1em;
     padding: 0;
     width: fit-content;
     height: auto;
@@ -109,14 +108,6 @@
 .container-recent-proj{
     margin: 0 auto;
     padding: 0;
-    width: 90%;
-}
-.recent-proj{
-    margin: 0 auto;
-}
-.recent-proj img{
-    margin: 0;
-    padding: 0;
     width: 100%;
-    height: auto;
+    min-height: 10em;
 }
