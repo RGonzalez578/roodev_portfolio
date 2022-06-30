@@ -48,6 +48,9 @@ nav{
 .container-nav-opt hr{
     display: none;
 }
+.background-nav{
+    display: none;
+}
 .nav-options{
     position: absolute;
     margin: 0;
@@ -140,7 +143,7 @@ nav{
         display: block;
     }
     .theme-btn{
-        margin: .7em;
+        margin: .9em;
         width: 2em;
         color: var(--white);
     }
@@ -154,7 +157,7 @@ nav{
         height: fit-content;
         background-color: var(--blue);
         top: -23em;
-        transition: ease-in-out .3s;
+        transition: ease-in-out .2s;
         z-index: 2;
     }
     .container-nav-opt hr{
@@ -162,6 +165,17 @@ nav{
         margin: 1em auto;
         width: 90%;
         color: var(--white);
+    }
+    .background-nav{
+        display: none;
+        position: absolute;
+        width: 100%;
+        height: 100vh;
+        background-color: black;
+        opacity: .5;
+        transition-delay: .5s;
+        transition: .3s;
+        z-index: 1;
     }
     .nav-options{
         position: unset;
