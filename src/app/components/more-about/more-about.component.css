@@ -25,3 +25,13 @@
     width: 90%;
     font-size: 1em;
 }
+
+/************************ MOBILE ************************/
+@media only screen and (max-width: 576px) {
+    .col-sm-4{
+        margin: 1em 0;
+    }
+    .item .column-2{
+        text-align: left;
+    }
+}
