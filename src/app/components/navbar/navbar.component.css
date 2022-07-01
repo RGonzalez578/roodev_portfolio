@@ -174,7 +174,7 @@ nav{
         background-color: black;
         opacity: .5;
         transition-delay: .5s;
-        transition: .3s;
+        transition: .5s;
         z-index: 1;
     }
     .nav-options{
