@@ -13,7 +13,6 @@ export class AboutComponent implements OnInit {
   clicked: boolean = true
   recentProjects: boolean = true
   moreInfo: boolean = false
-  //toggler: string = 'transparent'
   toggleTitle: string = 'Recent projects'
 
   constructor(private renderer: Renderer2) {  }
@@ -27,29 +26,31 @@ export class AboutComponent implements OnInit {
 
     if(this.clicked){
       this.showInfo()
-      this.clicked = false
-      this.toggleTitle = 'More about me'
+      
       this.renderer.setStyle(toggler, 'background-color', 'var(--orange)')
       this.renderer.setStyle(icon, 'color', 'var(--white)')
-      //this.toggler = 'var(--orange)'
     }else{
       this.showRecentProjects()
-      this.clicked = true
-      this.toggleTitle = 'Recent projects'
+      
       this.renderer.setStyle(toggler, 'background-color', 'transparent')
       this.renderer.setStyle(icon, 'color', 'var(--orange)')
-      //this.toggler = 'transparent'
     }
   }
 
   showRecentProjects(): void{
     this.recentProjects = true
     this.moreInfo = false
+
+    this.clicked = true
+    this.toggleTitle = 'Recent projects'
   }
 
   showInfo(): void{
     this.recentProjects = false
     this.moreInfo = true
+
+    this.clicked = false
+    this.toggleTitle = 'More about me'
   }
 
 }

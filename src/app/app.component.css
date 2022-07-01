@@ -2,3 +2,9 @@ main{
     margin: 0 8em 3em 12em;
     min-height: 100vh;
 }
+/************************ MOBILE ************************/
+@media only screen and (max-width: 576px) {
+    main{
+        margin: 0 .5em;
+    }
+}

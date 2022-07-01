@@ -99,3 +99,17 @@ h4{
     text-align: center;
     color: var(--font-color-white);
 }
+
+/************************ MOBILE ************************/
+@media only screen and (max-width: 576px) {
+    footer{
+        padding: 0;
+        width: 100%;
+        text-align: center;
+    }
+    .footer-container{
+        margin: 0 auto;
+        padding: 4em 0 2em 0;
+        width: 85%;
+    }
+}
