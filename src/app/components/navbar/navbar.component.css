@@ -117,7 +117,7 @@ nav{
         flex-direction: row;
         width: 100%;
         height: fit-content;
-
+        z-index: 2;
     }
     .logo{
         margin: 1em;
