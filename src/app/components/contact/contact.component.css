@@ -87,3 +87,36 @@ h3{
     width: 1.5em;
     height: auto;
 }
+
+/************************ MOBILE ************************/
+@media only screen and (max-width: 576px) {
+    h1{
+        position: static;
+        padding-top: 3em;
+    }
+    h2{
+        text-align: left;
+    }
+    h3{
+        text-align: left;
+    }
+    .fields-container{
+        margin: 1em auto 3.5em auto;
+        width: 100%;
+    }
+    .title{
+        position: static;
+        height: 8.2em;
+    }
+    .fields input{
+        border: .1em solid var(--font-color-blue);
+        border-radius: .5em;
+    }
+    .fields textarea{
+        border: .1em solid var(--font-color-blue);
+    }
+    .fields button{
+        border: .1em solid var(--font-color-blue);
+        font-size: 1.1em;
+    }
+}

@@ -77,6 +77,7 @@ hr{
 @media only screen and (max-width: 576px) {
     h1{
         position: static;
+        padding-top: 3em;
     }
     h2{
         margin: .2em auto;
@@ -98,6 +99,7 @@ hr{
     }
     .title{
         position: static;
+        height: 8.2em;
     }
     .cards{
         margin: 2.5em 0;
