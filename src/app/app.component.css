@@ -2,8 +2,22 @@ main{
     margin: 0 8em 3em 12em;
     min-height: 100vh;
 }
+/************************ TABLET ************************/
+@media only screen and (max-width: 991.98px) {
+    main{
+        margin: 0 8em;
+    }
+}
+
+/************************ MOBILE LANDSCAPE ************************/
+@media only screen and (max-width: 768.98px) {
+    main{
+        margin: 0 6em;
+    }
+}
+
 /************************ MOBILE ************************/
-@media only screen and (max-width: 576px) {
+@media only screen and (max-width: 575.98px) {
     main{
         margin: 0 .5em;
     }
