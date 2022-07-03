@@ -22,16 +22,54 @@
     color: var(--font-color-orange);
 }
 .item .column-2 p{
-    width: 90%;
+    width: 95%;
     font-size: 1em;
 }
 
-/************************ MOBILE ************************/
-@media only screen and (max-width: 576px) {
+/************************ TABLET ************************/
+@media only screen and (max-width: 991.98px) {
     .col-sm-4{
+        margin: 1.5em 0;
+    }
+    .item{
+        margin: .5em 0;
+    }
+    .item .column-2{
+        text-align: left;
+    }
+    .item .column-2 p{
+        width: 100%;
+    }
+}
+
+/************************ MOBILE LANDSCAPE ************************/
+@media only screen and (max-width: 768.98px) {
+    .col-sm-4{
+        margin: 1em 0;
+    }
+    .item{
+        margin: .5em 0;
+    }
+    .item .column-2{
+        text-align: left;
+    }
+    .item .column-2 p{
+        width: 100%;
+    }
+}
+
+/************************ MOBILE ************************/
+@media only screen and (max-width: 575.98px) {
+    .col-sm-4{
+        margin: 1em 0;
+    }
+    .item{
         margin: 1em 0;
     }
     .item .column-2{
         text-align: left;
+    }
+    .item .column-2 p{
+        width: 100%;
     }
 }
