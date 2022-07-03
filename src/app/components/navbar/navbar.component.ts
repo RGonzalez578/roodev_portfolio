@@ -25,7 +25,7 @@ export class NavbarComponent implements OnInit {
     if(this.mobileMenuShown){
       
       this.mobileMenuShown = false
-      this.renderer.setStyle(background, 'opacity', '0')
+      //this.renderer.setStyle(background, 'opacity', '0')
       this.renderer.setStyle(background, 'display', 'none')
 
       this.renderer.setStyle(menu, 'top', '-23em')

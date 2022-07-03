@@ -26,8 +26,28 @@
     font-size: 1em;
 }
 
+/************************ TABLET ************************/
+@media only screen and (max-width: 991.98px) {
+    .col-sm-4{
+        margin: 1em 0;
+    }
+    .item .column-2{
+        text-align: left;
+    }
+}
+
+/************************ MOBILE LANDSCAPE ************************/
+@media only screen and (max-width: 768.98px) {
+    .col-sm-4{
+        margin: 1em 0;
+    }
+    .item .column-2{
+        text-align: left;
+    }
+}
+
 /************************ MOBILE ************************/
-@media only screen and (max-width: 576px) {
+@media only screen and (max-width: 575.98px) {
     .col-sm-4{
         margin: 1em 0;
     }

@@ -101,7 +101,7 @@ h4{
 }
 
 /************************ MOBILE ************************/
-@media only screen and (max-width: 576px) {
+@media only screen and (max-width: 575.98px) {
     footer{
         padding: 0;
         width: 100%;
@@ -111,5 +111,82 @@ h4{
         margin: 0 auto;
         padding: 4em 0 2em 0;
         width: 95%;
+    }
+    .whatsapp-container{
+        margin: 1.4em auto;
+        padding: 0;
+        color: var(--font-color-white);
+    }
+    .whatsapp-container a{
+        margin: auto 0;
+        text-decoration: none;
+        color: var(--font-color-white);
+    }
+    .whatsapp-container svg{
+        margin-right: .8em;
+        width: 1.1em;
+        height: auto;
+    }
+    .github-container{
+        margin: 1.4em 0;
+        padding: 0;
+        color: var(--font-color-white);
+    }
+    .github-container a{
+        margin: auto 0;
+        text-decoration: none;
+        color: var(--font-color-white);
+    }
+    .github-container svg{
+        margin-right: .8em;
+        width: 1.1em;
+        height: auto;
+    }
+    .gmail-container{
+        margin: 1.4em 0;
+        padding: 0;
+        color: var(--font-color-white);
+    }
+    .gmail-container a{
+        margin: auto 0;
+        text-decoration: none;
+        color: var(--font-color-white);
+    }
+    .gmail-container svg{
+        margin-right: .8em;
+        width: 1.1em;
+        height: auto;
+    }
+    .linkedin-container{
+        margin: 1.4em 0;
+        padding: 0;
+        color: var(--font-color-white);
+    }
+    .linkedin-container a{
+        margin: auto 0;
+        text-decoration: none;
+        color: var(--font-color-white);
+    }
+    .linkedin-container svg{
+        margin-right: .8em;
+        width: 1.1em;
+        height: auto;
+    }
+    .resume-container{
+        display: flex;
+        justify-content: center;
+        margin: 1.4em 0;
+    }
+    .resume-container a{
+        color: var(--font-color-white);
+        height: fit-content;
+        text-decoration: none;
+    }
+    .resume-container a::after{
+        content: '';;
+        display: block;
+        width: 100%;
+        height: 1px;
+        background-color: var(--font-color-white);
     }
 }
