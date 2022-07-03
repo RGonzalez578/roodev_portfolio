@@ -71,7 +71,7 @@ h3{
     padding: .5em 2em;
     width: fit-content;
     border: .05em solid var(--font-color-blue);
-    border-radius: .5em;
+    border-radius: 2em;
     background-color: transparent;
     color: var(--font-color-blue);
     font-family: Poppins-bold;
@@ -88,8 +88,8 @@ h3{
     height: auto;
 }
 
-/************************ MOBILE ************************/
-@media only screen and (max-width: 575.98px) {
+/************************ TABLET ************************/
+@media only screen and (max-width: 991.98px) {
     h1{
         position: static;
         padding-top: 3em;
@@ -101,7 +101,7 @@ h3{
         text-align: left;
     }
     .fields-container{
-        margin: 1em auto 3.5em auto;
+        margin: 3em auto 3.5em auto;
         width: 100%;
     }
     .title{
@@ -118,5 +118,19 @@ h3{
     .fields button{
         border: .1em solid var(--font-color-blue);
         font-size: 1.1em;
+    }
+}
+
+/************************ MOBILE LANDSCAPE ************************/
+@media only screen and (max-width: 768.98px) {
+    .fields-container{
+        margin: 1.5em auto 3.5em auto;
+    }
+}
+
+/************************ MOBILE ************************/
+@media only screen and (max-width: 575.98px) {
+    .fields-container{
+        margin: 1.5em auto 3.5em auto;
     }
 }

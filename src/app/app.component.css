@@ -5,7 +5,7 @@ main{
 /************************ TABLET ************************/
 @media only screen and (max-width: 991.98px) {
     main{
-        margin: 0 12em;
+        margin: 0 8em;
     }
 }
 

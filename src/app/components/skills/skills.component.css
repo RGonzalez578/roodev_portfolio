@@ -73,6 +73,52 @@ hr{
     margin: auto 0;
 }
 
+/************************ TABLET ************************/
+@media only screen and (max-width: 991.98px) {
+    h1{
+        position: static;
+        padding-top: 3em;
+    }
+    h2{
+        margin: .2em auto;
+        font-family: Poppins-mid;
+        font-size: 2.1em;
+        color: var(--font-color-blue);
+    }
+    h3{
+        font-size: 1.2em;
+    }
+    p{
+        font-size: 1.1em;
+    }
+    hr{
+        display: none;
+    }
+    .title{
+        position: static;
+        height: 8.2em;
+    }
+    .cards{
+        margin: 2.5em 0;
+    }
+    .design-container{
+        margin: 1.5em 0 3em 0
+    }
+    .developer-container{
+        margin: 1.5em 0 3em 0
+    }
+}
+
+/************************ MOBILE LANDSCAPE ************************/
+@media only screen and (max-width: 768.98px) {
+    hr{
+        margin: 1em auto;
+        width: 90%;
+        display: block;
+        z-index: 0;
+    }
+}
+
 /************************ MOBILE ************************/
 @media only screen and (max-width: 575.98px) {
     h1{
@@ -109,33 +155,5 @@ hr{
     }
     .developer-container{
         margin: 1.5em 0
-    }
-    .design-logo{
-        margin: .5em auto;
-        width: 2.5em;
-        height: auto;
-        color: var(--font-color-blue);
-    }
-    .developer-logo{
-        margin: .5em auto;
-        width: 3em;
-        height: auto;
-        color: var(--font-color-blue);
-    }
-    .items{
-        margin: 0 auto;
-        width: fit-content;
-        text-align: left;
-    }
-    .item{
-        width: 100%;
-        margin: .5em 0;
-    }
-    .item svg{
-        width: 1.3em;
-    }
-    .item p{
-        display: inline-block;
-        margin: auto 0;
     }
 }
