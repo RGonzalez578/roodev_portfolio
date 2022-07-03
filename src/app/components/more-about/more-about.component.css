@@ -22,7 +22,7 @@
     color: var(--font-color-orange);
 }
 .item .column-2 p{
-    width: 90%;
+    width: 95%;
     font-size: 1em;
 }
 
@@ -37,6 +37,9 @@
     .item .column-2{
         text-align: left;
     }
+    .item .column-2 p{
+        width: 100%;
+    }
 }
 
 /************************ MOBILE LANDSCAPE ************************/
@@ -50,6 +53,9 @@
     .item .column-2{
         text-align: left;
     }
+    .item .column-2 p{
+        width: 100%;
+    }
 }
 
 /************************ MOBILE ************************/
@@ -62,5 +68,8 @@
     }
     .item .column-2{
         text-align: left;
+    }
+    .item .column-2 p{
+        width: 100%;
     }
 }
