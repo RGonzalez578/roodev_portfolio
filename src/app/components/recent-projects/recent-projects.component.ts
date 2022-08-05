@@ -1,11 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { ProjectsFromJsonService } from '../../services/projects-from-json.service';
-
-interface Project{
-  id: string;
-  name: string;
-  thumbnail: string;
-}
+import { ProjectsFromJsonService, ProjectInterface } from '../../services/projects-from-json.service';
 
 @Component({
   selector: 'app-recent-projects',
@@ -15,10 +9,9 @@ interface Project{
 })
 export class RecentProjectsComponent implements OnInit {
 
-  constructor(private jsonService: ProjectsFromJsonService) {}
+  constructor(private projectsJSONService: ProjectsFromJsonService) { }
 
   ngOnInit(): void {}
 
-  projects: Project[] = this.jsonService.getProjects()
-
+  arrProjects: ProjectInterface[] =  this.projectsJSONService.getProjects()
 }

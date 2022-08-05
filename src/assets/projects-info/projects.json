@@ -1,12 +1,66 @@
 [
     {
         "id": "0",
+        "release_date": "11/2021",
         "name": "aMonchar",
-        "thumbnail": "../../../assets/projects-info/aMonchar/thumbnail_aMonchar.png"
+        "thumbnail": "../../../assets/projects-info/aMonchar/thumbnail_aMonchar.png",
+        "description": "description",
+        "process": "process",
+        "role": "role",
+        "team": "team",
+        "results": "results",
+        "learned": "learned",
+        "technologies": [
+            {
+                "techName": "Android Studio"
+            },
+            {
+                "techName": "Java"
+            }
+        ],
+        "gallery": [
+            {
+                "title": "title 1",
+                "description": "decription 1",
+                "img": "img 1"
+            },
+            {
+                "title": "title 2",
+                "description": "decription ",
+                "img": "img 2"
+            }
+        ]
     },
     {
         "id": "1",
+        "release_date": "11/2021",
         "name": "Tierra a la vista",
-        "thumbnail": "../../../assets/projects-info/Tierra_a_la_vista/thumbnail_tierra_a_la_vista.png"
+        "thumbnail": "../../../assets/projects-info/Tierra_a_la_vista/thumbnail_tierra_a_la_vista.png",
+        "description": "description",
+        "process": "process",
+        "role": "role",
+        "team": "team",
+        "results": "results",
+        "learned": "learned",
+        "technologies": [
+            {
+                "techName": "Unity 3D"
+            },
+            {
+                "techName": "C#"
+            }
+        ],
+        "gallery": [
+            {
+                "title": "title 3",
+                "description": "decription 3",
+                "img": "img 3"
+            },
+            {
+                "title": "title 4",
+                "description": "decription 4",
+                "img": "img 4"
+            }
+        ]
     }
 ]
