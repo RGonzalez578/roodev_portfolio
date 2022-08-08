@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { ProjectInterface, ProjectsFromJsonService } from 'src/app/services/projects-from-json.service';
 
 @Component({
   selector: 'app-works',
@@ -7,9 +8,10 @@ import { Component, OnInit } from '@angular/core';
 })
 export class WorksComponent implements OnInit {
 
-  constructor() { }
+  arrProjects: ProjectInterface[] =  this.projectsJSONService.getProjects()
 
-  ngOnInit(): void {
-  }
+  constructor(private projectsJSONService: ProjectsFromJsonService) { }
+
+  ngOnInit(): void { }
 
 }

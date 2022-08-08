@@ -2,10 +2,11 @@ import { Injectable } from '@angular/core';
 import projectsData from '../../assets/projects-info/projects.json';
 
 export interface Technologies{
-  techName: string
+  tech_name: string
 }
 
 export interface Gallery{
+  id: string
   title: string
   description: string
   img: string
@@ -33,11 +34,7 @@ export class ProjectsFromJsonService {
 
   arrProjects: ProjectInterface[] = projectsData;
 
-  constructor() {
-    for (let i = 0; i < this.arrProjects.length; i++) {
-      console.log(this.arrProjects[i].gallery[0].title)
-    }
-  }
+  constructor() { }
 
   getProjects(){
     return this.arrProjects

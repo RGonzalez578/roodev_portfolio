@@ -1,1 +1,76 @@
-<p>work-detail works!</p>
+<div class="container">
+
+    <div class="row">
+        <div class="col-12">
+            <h1>{{ project.name }}</h1>
+        </div>
+        <div class="col-12 front-img-container">
+            <img src="{{ project.thumbnail }}" alt="{{ project.name }} thumbnail">
+        </div>
+    </div>
+
+    <div class="sub-container">
+        <div class="row info-container">
+            <div class="col-12 info-item">
+                <p>{{ project.description }}</p>
+            </div>
+            <div class="col-12 info-item">
+                <p>{{ project.process }}</p>
+            </div>
+            <div class="col-12 info-item">
+                <p>{{ project.role }}</p>
+            </div>
+            <div class="col-12 info-item">
+                <p>{{ project.team }}</p>
+            </div>
+            <div class="col-12 info-item">
+                <p>{{ project.results }}</p>
+            </div>
+            <div class="col-12 info-item">
+                <p>{{ project.learned }}</p>
+            </div>
+        </div>
+    
+        <div class="row tech-gallery-container">
+            <div class="col-12">
+                <h3>Technologies & tools</h3>
+                <div class="technologies-container">
+                    <p *ngFor="let tech of project.technologies">{{ tech.tech_name }}</p>
+                </div>
+                    
+            </div>
+    
+            <div class="col-12">
+                <h2>Gallery</h2>
+                <div class="gallery-container">
+    
+                    <div *ngFor="let item of project.gallery" class="gallery-item">
+                        <!-- Button trigger modal -->
+                        <div class="gallery-item" data-bs-toggle="modal" attr.data-bs-target="#modal{{ item.id }}">
+                            <img src="{{ item.img }}" alt="{{ item.title }}">
+                        </div>
+                        
+                        <!-- Modal -->
+                        <div class="modal fade" id="modal{{ item.id }}" tabindex="-1" attr.aria-labelledby="labelFor{{ item.id }}" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered">
+                                <div class="modal-content">
+                                    <img src="{{ item.img }}" alt="{{ item.title }}">
+                                    <!--<div class="gallery-info">
+                                        <div class="gallery-info-title">
+                                            <h5 id="labelFor{{ item.id }}">{{ item.title }}</h5>
+                                        </div>
+                                        <div class="modal-body">
+                                            <p>{{ item.description }}</p>
+                                        </div>
+                                    </div>-->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>

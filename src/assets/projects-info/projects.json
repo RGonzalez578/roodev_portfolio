@@ -4,30 +4,56 @@
         "release_date": "11/2021",
         "name": "aMonchar",
         "thumbnail": "../../../assets/projects-info/aMonchar/thumbnail_aMonchar.png",
-        "description": "description",
-        "process": "process",
-        "role": "role",
-        "team": "team",
-        "results": "results",
-        "learned": "learned",
+        "description": "description - Lorem ipsum dolor sit amet vulputate erat accumsan sanctus duo et et ipsum clita vel dolor duo facer dolor et sit sea duo delenit consetetur et diam qui gubergren sanctus aliquip nonumy amet nonummy rebum amet magna ut luptatum diam voluptua eros sea at takimata lorem nibh dignissim stet no",
+        "process": "process - Lorem ipsum dolor sit amet vulputate erat accumsan sanctus duo et et ipsum clita vel dolor duo facer dolor et sit sea duo delenit consetetur et diam qui gubergren sanctus aliquip nonumy amet nonummy rebum amet magna ut luptatum diam voluptua eros sea at takimata lorem nibh dignissim stet no",
+        "role": "role - Lorem ipsum dolor sit amet vulputate erat accumsan sanctus duo et et ipsum clita vel dolor duo facer dolor et sit sea duo delenit consetetur et diam qui gubergren sanctus aliquip nonumy amet nonummy rebum amet magna ut luptatum diam voluptua eros sea at takimata lorem nibh dignissim stet no",
+        "team": "team - Lorem ipsum dolor sit amet vulputate erat accumsan sanctus duo et et ipsum clita vel dolor duo facer dolor et sit sea duo delenit consetetur et diam qui gubergren sanctus aliquip nonumy amet nonummy rebum amet magna ut luptatum diam voluptua eros sea at takimata lorem nibh dignissim stet no",
+        "results": "results - Lorem ipsum dolor sit amet vulputate erat accumsan sanctus duo et et ipsum clita vel dolor duo facer dolor et sit sea duo delenit consetetur et diam qui gubergren sanctus aliquip nonumy amet nonummy rebum amet magna ut luptatum diam voluptua eros sea at takimata lorem nibh dignissim stet no",
+        "learned": "learned - Lorem ipsum dolor sit amet vulputate erat accumsan sanctus duo et et ipsum clita vel dolor duo facer dolor et sit sea duo delenit consetetur et diam qui gubergren sanctus aliquip nonumy amet nonummy rebum amet magna ut luptatum diam voluptua eros sea at takimata lorem nibh dignissim stet no",
         "technologies": [
             {
-                "techName": "Android Studio"
+                "tech_name": "Android Studio"
             },
             {
-                "techName": "Java"
+                "tech_name": "Java"
             }
         ],
         "gallery": [
             {
-                "title": "title 1",
-                "description": "decription 1",
-                "img": "img 1"
+                "id": "0",
+                "title": "Home screen",
+                "description": "Lorem ipsum dolor sit amet vulputate erat accumsan sanctus duo et et ipsum clita vel dolor duo",
+                "img": "../../../assets/projects-info/aMonchar/gallery/home-screen.jpg"
             },
             {
-                "title": "title 2",
-                "description": "decription ",
-                "img": "img 2"
+                "id": "1",
+                "title": "Search screen",
+                "description": "decription 2",
+                "img": "../../../assets/projects-info/aMonchar/gallery/search-screen.jpg"
+            },
+            {
+                "id": "2",
+                "title": "Week plan screen",
+                "description": "decription 3",
+                "img": "../../../assets/projects-info/aMonchar/gallery/week-plan-screen.jpg"
+            },
+            {
+                "id": "3",
+                "title": "Buying list screen",
+                "description": "decription 4",
+                "img": "../../../assets/projects-info/aMonchar/gallery/buying-list-screen.jpg"
+            },
+            {
+                "id": "4",
+                "title": "Benefits of ingredients",
+                "description": "decription 5",
+                "img": "../../../assets/projects-info/aMonchar/gallery/benefits-screen.jpg"
+            },
+            {
+                "id": "5",
+                "title": "GG",
+                "description": "decription 6",
+                "img": "../../../assets/img/placeholder_img.svg"
             }
         ]
     },
@@ -44,22 +70,24 @@
         "learned": "learned",
         "technologies": [
             {
-                "techName": "Unity 3D"
+                "tech_name": "Unity 3D"
             },
             {
-                "techName": "C#"
+                "tech_name": "C#"
             }
         ],
         "gallery": [
             {
+                "id": "0",
                 "title": "title 3",
                 "description": "decription 3",
-                "img": "img 3"
+                "img": "../../../assets/img/placeholder_img.svg"
             },
             {
+                "id": "1",
                 "title": "title 4",
                 "description": "decription 4",
-                "img": "img 4"
+                "img": "../../../assets/img/placeholder_img.svg"
             }
         ]
     }
