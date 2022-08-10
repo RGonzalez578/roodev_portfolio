@@ -21,36 +21,42 @@
         "gallery": [
             {
                 "id": "0",
+                "type": "vertical",
                 "title": "Home screen",
                 "description": "Lorem ipsum dolor sit amet vulputate erat accumsan sanctus duo et et ipsum clita vel dolor duo",
                 "img": "../../../assets/projects-info/aMonchar/gallery/home-screen.jpg"
             },
             {
                 "id": "1",
+                "type": "vertical",
                 "title": "Search screen",
                 "description": "decription 2",
                 "img": "../../../assets/projects-info/aMonchar/gallery/search-screen.jpg"
             },
             {
                 "id": "2",
+                "type": "vertical",
                 "title": "Week plan screen",
                 "description": "decription 3",
                 "img": "../../../assets/projects-info/aMonchar/gallery/week-plan-screen.jpg"
             },
             {
                 "id": "3",
+                "type": "vertical",
                 "title": "Buying list screen",
                 "description": "decription 4",
                 "img": "../../../assets/projects-info/aMonchar/gallery/buying-list-screen.jpg"
             },
             {
                 "id": "4",
+                "type": "vertical",
                 "title": "Benefits of ingredients",
                 "description": "decription 5",
                 "img": "../../../assets/projects-info/aMonchar/gallery/benefits-screen.jpg"
             },
             {
                 "id": "5",
+                "type": "horizontal",
                 "title": "GG",
                 "description": "decription 6",
                 "img": "../../../assets/img/placeholder_img.svg"
@@ -79,12 +85,14 @@
         "gallery": [
             {
                 "id": "0",
+                "type": "horizontal",
                 "title": "title 3",
                 "description": "decription 3",
                 "img": "../../../assets/img/placeholder_img.svg"
             },
             {
                 "id": "1",
+                "type": "horizontal",
                 "title": "title 4",
                 "description": "decription 4",
                 "img": "../../../assets/img/placeholder_img.svg"

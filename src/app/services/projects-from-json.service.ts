@@ -7,6 +7,7 @@ export interface Technologies{
 
 export interface Gallery{
   id: string
+  type: string
   title: string
   description: string
   img: string

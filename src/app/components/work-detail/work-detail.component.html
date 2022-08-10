@@ -12,21 +12,27 @@
     <div class="sub-container">
         <div class="row info-container">
             <div class="col-12 info-item">
+                <h5>Description</h5>
                 <p>{{ project.description }}</p>
             </div>
             <div class="col-12 info-item">
+                <h5>Process</h5>
                 <p>{{ project.process }}</p>
             </div>
             <div class="col-12 info-item">
+                <h5>My role</h5>
                 <p>{{ project.role }}</p>
             </div>
             <div class="col-12 info-item">
+                <h5>Team</h5>
                 <p>{{ project.team }}</p>
             </div>
             <div class="col-12 info-item">
+                <h5>Results</h5>
                 <p>{{ project.results }}</p>
             </div>
             <div class="col-12 info-item">
+                <h5>What I have learned</h5>
                 <p>{{ project.learned }}</p>
             </div>
         </div>
@@ -44,7 +50,7 @@
                 <h2>Gallery</h2>
                 <div class="gallery-container">
     
-                    <div *ngFor="let item of project.gallery" class="gallery-item">
+                    <div *ngFor="let item of project.gallery; let i = index" class="gallery-item">
                         <!-- Button trigger modal -->
                         <div class="gallery-item" data-bs-toggle="modal" attr.data-bs-target="#modal{{ item.id }}">
                             <img src="{{ item.img }}" alt="{{ item.title }}">
@@ -53,7 +59,7 @@
                         <!-- Modal -->
                         <div class="modal fade" id="modal{{ item.id }}" tabindex="-1" attr.aria-labelledby="labelFor{{ item.id }}" aria-hidden="true">
                             <div class="modal-dialog modal-dialog-centered">
-                                <div class="modal-content">
+                                <div class="modal-content {{ item.type }}">
                                     <img src="{{ item.img }}" alt="{{ item.title }}">
                                     <!--<div class="gallery-info">
                                         <div class="gallery-info-title">

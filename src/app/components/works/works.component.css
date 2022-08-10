@@ -32,6 +32,7 @@ h2{
     flex-direction: row;
     flex-wrap: wrap;
     width: 100%;
+    gap: 1.5em;
 }
 .contact-btn{
     margin: 0;
@@ -53,7 +54,6 @@ h2{
     background-color: var(--font-color-blue);
 }
 .project-card{
-    margin: .5em;
     width: 22%;
     background-color: var(--grey);
     border-radius: 1em;
