@@ -25,72 +25,12 @@
                 <div class="project-gallery">
 
                     <!-- Card -->
-                    <a routerLink="/work" class="project-card" title="Title">
+                    <a *ngFor="let project of arrProjects" routerLink="/work/{{ project.id }}" class="project-card" title="{{ project.name }}">
                         <div class="project-img">
-                            <img src="../../../assets/img/placeholder_img.svg" alt="placeholder_img">
+                            <img src="{{ project.thumbnail }}" alt="{{ project.name }} thumbnail">
                         </div>
                         <div class="project-title">
-                            <h3>Title</h3>
-                        </div>
-                    </a>
-
-                    <!-- Card -->
-                    <a routerLink="/work" class="project-card" title="Title">
-                        <div class="project-img">
-                            <img src="../../../assets/img/placeholder_img.svg" alt="placeholder_img">
-                        </div>
-                        <div class="project-title">
-                            <h3>Title</h3>
-                        </div>
-                    </a>
-
-                    <!-- Card -->
-                    <a routerLink="/work" class="project-card" title="Title">
-                        <div class="project-img">
-                            <img src="../../../assets/img/placeholder_img.svg" alt="placeholder_img">
-                        </div>
-                        <div class="project-title">
-                            <h3>Title</h3>
-                        </div>
-                    </a>
-
-                    <!-- Card -->
-                    <a routerLink="/work" class="project-card" title="Title">
-                        <div class="project-img">
-                            <img src="../../../assets/img/placeholder_img.svg" alt="placeholder_img">
-                        </div>
-                        <div class="project-title">
-                            <h3>Title</h3>
-                        </div>
-                    </a>
-
-                    <!-- Card -->
-                    <a routerLink="/work" class="project-card" title="Title">
-                        <div class="project-img">
-                            <img src="../../../assets/img/placeholder_img.svg" alt="placeholder_img">
-                        </div>
-                        <div class="project-title">
-                            <h3>Title</h3>
-                        </div>
-                    </a>
-
-                    <!-- Card -->
-                    <a routerLink="/work" class="project-card" title="Title">
-                        <div class="project-img">
-                            <img src="../../../assets/img/placeholder_img.svg" alt="placeholder_img">
-                        </div>
-                        <div class="project-title">
-                            <h3>Title</h3>
-                        </div>
-                    </a>
-
-                    <!-- Card -->
-                    <a routerLink="/work" class="project-card" title="Title">
-                        <div class="project-img">
-                            <img src="../../../assets/img/placeholder_img.svg" alt="placeholder_img">
-                        </div>
-                        <div class="project-title">
-                            <h3>Title</h3>
+                            <h3>{{ project.name }}</h3>
                         </div>
                     </a>
     

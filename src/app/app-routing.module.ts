@@ -11,7 +11,7 @@ const routes: Routes = [
   {path: 'about', component: AboutComponent},
   {path: 'skills', component: SkillsComponent},
   {path: 'works', component: WorksComponent},
-  {path: 'work', component: WorkDetailComponent},
+  {path: 'work/:id', component: WorkDetailComponent},
   {path: 'contact', component: ContactComponent},
   {path: '', redirectTo: '/about', pathMatch: 'full'},
   {path: '**', component: NotFoundComponent}
