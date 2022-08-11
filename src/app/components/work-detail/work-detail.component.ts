@@ -19,6 +19,8 @@ export class WorkDetailComponent implements OnInit {
 
   ngOnInit(): void {
 
+    window.scroll(0, 0)
+
     //Get Id from router
     this.id = this.route.snapshot.paramMap.get('id')
 

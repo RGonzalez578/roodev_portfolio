@@ -12,6 +12,8 @@ export class WorksComponent implements OnInit {
 
   constructor(private projectsJSONService: ProjectsFromJsonService) { }
 
-  ngOnInit(): void { }
+  ngOnInit(): void {
+    window.scroll(0, 0)
+  }
 
 }

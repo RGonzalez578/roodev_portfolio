@@ -13,6 +13,13 @@ export class NavbarComponent implements OnInit {
   mobileMenuShown: boolean = false
   darkMode: boolean = false
 
+  aboutSection: boolean = true
+  skillsSection: boolean = false
+  worksSection: boolean = false
+  contactSection: boolean = false
+
+  
+
   constructor(private renderer: Renderer2) { }
 
   ngOnInit(): void {
@@ -57,6 +64,34 @@ export class NavbarComponent implements OnInit {
       document.documentElement.style.setProperty('--blue', '#3755C8');
       this.darkMode = true
     }
+  }
+
+  pointAbout(): void{
+    this.aboutSection = true
+    this.skillsSection = false
+    this.worksSection = false
+    this.contactSection = false
+  }
+
+  pointSkills(): void{
+    this.aboutSection = false
+    this.skillsSection = true
+    this.worksSection = false
+    this.contactSection = false
+  }
+
+  pointWorks(): void{
+    this.aboutSection = false
+    this.skillsSection = false
+    this.worksSection = true
+    this.contactSection = false
+  }
+
+  pointContact(): void{
+    this.aboutSection = false
+    this.skillsSection = false
+    this.worksSection = false
+    this.contactSection = true
   }
 
 }

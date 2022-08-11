@@ -1,5 +1,6 @@
 /* You can add global styles to this file, and also import other style files */
 :root{
+    /*Colors*/
     --orange:#FFB800;
     --light-blue:#11BADE;
     --blue:#3755C8;
@@ -14,6 +15,9 @@
     --font-color-black:#282828;
     --font-color-orange:#FFB800;
     --font-color-blue:#11BADE;
+
+    /*After element width of nav-options*/
+    --width-after-element: block;
 }
 @font-face {
     font-family: Poppins-bold;
