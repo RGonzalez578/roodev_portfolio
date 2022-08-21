@@ -20,10 +20,10 @@
 
     <div class="container-nav-opt" #mobileMenu>
         <ul class="nav-options">
-            <li><a routerLink="/about">About</a></li>
-            <li><a routerLink="/skills">Skills</a></li>
-            <li><a routerLink="/works">Works</a></li>
-            <li><a routerLink="/contact">Contact</a></li>
+            <li><a class="option-hover" routerLink="/about" [ngStyle]="{'font-size': aboutSection ? '1.4em' : ''}" (click)="pointAbout()">About</a></li>
+            <li><a class="option-hover" routerLink="/skills" [ngStyle]="{'font-size': skillsSection ? '1.4em' : ''}" (click)="pointSkills()">Skills</a></li>
+            <li><a class="option-hover" routerLink="/works" [ngStyle]="{'font-size': worksSection ? '1.4em' : ''}" (click)="pointWorks()">Works</a></li>
+            <li><a class="option-hover" routerLink="/contact" [ngStyle]="{'font-size': contactSection ? '1.4em' : ''}" (click)="pointContact()">Contact</a></li>
         </ul>
         <hr>
         <ul class="nav-networks">

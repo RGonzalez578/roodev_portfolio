@@ -17,7 +17,9 @@ export class AboutComponent implements OnInit {
 
   constructor(private renderer: Renderer2) {  }
 
-  ngOnInit(): void {  }
+  ngOnInit(): void {
+    window.scroll(0, 0)
+  }
 
   toggleSection(): void{
 

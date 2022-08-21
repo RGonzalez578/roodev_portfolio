@@ -73,7 +73,14 @@ nav{
 .nav-options li a:hover{
     font-size: 1.4em;
 }
-.nav-options li a:hover::after{
+.option-hover::after{
+    content: '';
+    display: none;
+    width: 60%;
+    height: 1.5px;
+    background-color: var(--light-blue);
+}
+.option-hover:hover::after{
     content: '';
     display: block;
     width: 60%;
