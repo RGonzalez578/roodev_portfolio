@@ -15,9 +15,6 @@
     --font-color-black:#282828;
     --font-color-orange:#FFB800;
     --font-color-blue:#11BADE;
-
-    /*After element width of nav-options*/
-    --width-after-element: block;
 }
 @font-face {
     font-family: Poppins-bold;
