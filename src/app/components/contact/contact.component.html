@@ -7,7 +7,7 @@
 
     <div class="row">
         <div class="col-12 fields-container">
-            <form action="/about" name="contact-form" netlify>
+            <form action="/about" name="contact-form" method="POST" data-netlify="true">
                 <div class="row">
                     <div class="col-12">
                         <h2>Let's talk</h2>
@@ -23,6 +23,7 @@
                     </div>
                 </div>
                 <div class="row fields">
+                    <input type="hidden" name="subject" value="portfolio message">
                     <div class="col-12">
                         <textarea name="message" id="message" rows="7" placeholder="I think we should talk about..."></textarea>
                     </div>
@@ -36,7 +37,6 @@
                         </button>
                     </div>
                 </div>
-                <input type="hidden" name="subject" value="portfolio message">
             </form>
         </div>
     </div>
