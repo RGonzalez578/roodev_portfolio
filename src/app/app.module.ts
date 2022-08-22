@@ -15,6 +15,8 @@ import { RecentProjectsComponent } from './components/recent-projects/recent-pro
 import { MoreAboutComponent } from './components/more-about/more-about.component';
 import { ReactiveFormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
+import { SuccessComponent } from './components/success/success.component';
+import { FailureComponent } from './components/failure/failure.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +30,9 @@ import { HttpClientModule } from '@angular/common/http';
     NotFoundComponent,
     WorkDetailComponent,
     RecentProjectsComponent,
-    MoreAboutComponent
+    MoreAboutComponent,
+    SuccessComponent,
+    FailureComponent
   ],
   imports: [
     BrowserModule,

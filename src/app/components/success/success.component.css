@@ -1,0 +1,32 @@
+section{
+    margin: 0 auto;
+    width: fit-content;
+    height: 100vh;
+}
+h1{
+    font-family: Poppins-bold;
+    text-align: center;
+    color: var(--font-color-orange);
+}
+p{
+    font-size: 1.2em;
+    text-align: center;
+}
+p span a{
+    width: fit-content;
+    text-decoration: none;
+    color: var(--font-color-blue);
+}
+p span a:hover{
+    color: var(--font-color-orange);
+}
+.success-container{
+    margin: auto 0;
+    padding-bottom: 3em;
+    width: fit-content;
+    height: fit-content;
+}
+.happy-face{
+    font-family: Poppins-bold;
+    font-size: 3em;
+}
