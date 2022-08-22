@@ -13,6 +13,8 @@ import { NotFoundComponent } from './components/not-found/not-found.component';
 import { WorkDetailComponent } from './components/work-detail/work-detail.component';
 import { RecentProjectsComponent } from './components/recent-projects/recent-projects.component';
 import { MoreAboutComponent } from './components/more-about/more-about.component';
+import { ReactiveFormsModule } from '@angular/forms';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -30,7 +32,9 @@ import { MoreAboutComponent } from './components/more-about/more-about.component
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    ReactiveFormsModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
