@@ -7,7 +7,7 @@
 
     <div class="row">
         <div class="col-12 fields-container">
-            <form action="/about" name="contact-form" method="POST" data-netlify="true">
+            <form action="/about" name="contact-form" method="POST" [formGroup]="contactGroup" (ngSubmit)="onSubmit()">
                 <div class="row">
                     <div class="col-12">
                         <h2>Let's talk</h2>
@@ -16,16 +16,16 @@
                 </div>
                 <div class="row fields">
                     <div class="col-xs-6 col-sm-12 col-md-6 col-lg-6">
-                        <input type="text" name="name" placeholder="Daniel Roberts">
+                        <input type="text" name="name" formControlName="name" placeholder="Daniel Roberts">
                     </div>
                     <div class="col-xs-6 col-sm-12 col-md-6 col-lg-6">
-                        <input type="email" name="email" placeholder="daniel.roberts@example.com">
+                        <input type="email" name="email" formControlName="email" placeholder="daniel.roberts@example.com">
                     </div>
                 </div>
                 <div class="row fields">
-                    <input type="hidden" name="subject" value="portfolio message">
+                    <input type="hidden" name="subject" formControlName="subject">
                     <div class="col-12">
-                        <textarea name="message" id="message" rows="7" placeholder="I think we should talk about..."></textarea>
+                        <textarea name="message" id="message" rows="7" formControlName="message" placeholder="I think we should talk about..."></textarea>
                     </div>
                     <div class="col-12">
                         <button type="submit">
