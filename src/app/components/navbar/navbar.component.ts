@@ -53,15 +53,27 @@ export class NavbarComponent implements OnInit {
       //Light Mode
       document.documentElement.style.setProperty('--background', '#FAFAFA');
       document.documentElement.style.setProperty('--black', '#282828');
+      document.documentElement.style.setProperty('--blue', '#2943A7');
+      //document.documentElement.style.setProperty('--light-blue', '#11BADE');
       document.documentElement.style.setProperty('--background-navbar', '#11BADE');
-      document.documentElement.style.setProperty('--blue', '#3755C8');
+      document.documentElement.style.setProperty('--background-footer', '#2943A7');
+      document.documentElement.style.setProperty('--item-work-gallery-hover', '#11BADE');
+      document.documentElement.style.setProperty('--background-scrollbar', '#FAFAFA');
+      document.documentElement.style.setProperty('--technology-item', '#EBEBEB');
+      
       this.darkMode = false
     }else{
       //Dark Mode
-      document.documentElement.style.setProperty('--background', '#282828');
+      document.documentElement.style.setProperty('--background', '#060B28');
       document.documentElement.style.setProperty('--black', '#FAFAFA');
-      document.documentElement.style.setProperty('--background-navbar', '#FFB800');
-      document.documentElement.style.setProperty('--blue', '#3755C8');
+      document.documentElement.style.setProperty('--blue', '#132C8A');
+      //document.documentElement.style.setProperty('--light-blue', '#FFB800');
+      document.documentElement.style.setProperty('--background-navbar', '#1A3394');
+      document.documentElement.style.setProperty('--background-footer', '#0F2083');
+      document.documentElement.style.setProperty('--item-work-gallery-hover', '#0F2083');
+      document.documentElement.style.setProperty('--background-scrollbar', '#060B28');
+      document.documentElement.style.setProperty('--technology-item', '#04071B');
+      
       this.darkMode = true
     }
   }

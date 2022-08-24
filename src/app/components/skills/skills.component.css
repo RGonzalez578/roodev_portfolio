@@ -1,7 +1,7 @@
 h1{
     position: absolute;
     margin-bottom: 0;
-    padding-top: 2em;
+    padding-top: 1.93em;
     padding-bottom: 0;
     font-family: Poppins-bold;
     font-size: 2.1em;
@@ -20,6 +20,7 @@ h3{
 }
 p{
     margin: 0 0 1.5em 0;
+    color: var(--black);
 }
 hr{
     display: none;
