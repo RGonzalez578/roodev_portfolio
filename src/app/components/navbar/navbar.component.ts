@@ -12,6 +12,8 @@ export class NavbarComponent implements OnInit {
 
   mobileMenuShown: boolean = false
   darkMode: boolean = false
+  darkModeEnabled = false
+  darkModeDisabled = true
 
   aboutSection: boolean = true
   skillsSection: boolean = false
@@ -62,6 +64,8 @@ export class NavbarComponent implements OnInit {
       document.documentElement.style.setProperty('--technology-item', '#EBEBEB');
       
       this.darkMode = false
+      this.darkModeDisabled = true
+      this.darkModeEnabled = false
     }else{
       //Dark Mode
       document.documentElement.style.setProperty('--background', '#060B28');
@@ -75,6 +79,8 @@ export class NavbarComponent implements OnInit {
       document.documentElement.style.setProperty('--technology-item', '#04071B');
       
       this.darkMode = true
+      this.darkModeEnabled = true
+      this.darkModeDisabled = false
     }
   }
 
