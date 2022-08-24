@@ -45,6 +45,7 @@ h5{
 }
 .info-item{
     margin: .7em 0;
+    color: var(--black);
 }
 .tech-gallery-container{
     width: 95%;
@@ -61,9 +62,10 @@ h5{
 .technologies-container p{
     margin: 0;
     padding: .5em 1em;
-    background-color: var(--grey);
+    background-color: var(--technology-item);
     border-radius: .5em;
     font-size: 1.2em;
+    color: var(--black);
 }
 .gallery-container{
     display: flex;
@@ -84,6 +86,9 @@ h5{
     width: .4em;
     background-color: var(--dark-grey);
 }
+.gallery-container::-webkit-scrollbar-track{
+    background-color: var(--background-scrollbar);
+}
 .gallery-item{
     display: flex;
     justify-content: center;
@@ -91,7 +96,7 @@ h5{
     padding: 0;
     width: 351px;
     height: 196px;
-    background-color: var(--grey);
+    background-color: var(--technology-item);
     border-radius: 1em;
     cursor: pointer;
 }

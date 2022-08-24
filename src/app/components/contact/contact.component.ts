@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { FormControl, FormGroup } from '@angular/forms';
 import { HttpClient, HttpParams } from '@angular/common/http';
+import { Router, ActivatedRoute } from '@angular/router';
 
 @Component({
   selector: 'app-contact',
@@ -16,7 +17,7 @@ export class ContactComponent implements OnInit {
     subject: new FormControl('portfolio message')
   });
 
-  constructor(private http: HttpClient) { }
+  constructor(private http: HttpClient, private router: Router, private activeRouter: ActivatedRoute) { }
 
   ngOnInit(): void {
     window.scroll(0, 0)
@@ -29,6 +30,7 @@ export class ContactComponent implements OnInit {
     .append('email', this.contactGroup.value.email)
     .append('subject', this.contactGroup.value.subject)
     .append('message', this.contactGroup.value.message)
+
     this.http.post('/', body.toString(), {headers: { 'Content-Type': 'application/x-www-form-urlencoded' }}).subscribe(
       res => {},
       err => {
@@ -39,13 +41,15 @@ export class ContactComponent implements OnInit {
         } else {
           //backend error. If status is 200, then the message successfully sent
           if (err.status === 200) {
-            alert("Your message has been sent!");
+            this.router.navigateByUrl('success')
+            this.contactGroup.value.name.setValue('')
+            this.contactGroup.value.email.setValue('')
+            this.contactGroup.value.subject.setValue('')
+            this.contactGroup.value.message.setValue('')
           } else {
-            alert("Something went wrong when sending your message.");
-            console.log('Error status:');
-            console.log(err.status);
-            console.log('Error body:');
-            console.log(err.error);
+            this.router.navigateByUrl('failure')
+            console.log('Error status: ' + err.status);
+            console.log('Error body: ' + err.error);
           };
         };
       }

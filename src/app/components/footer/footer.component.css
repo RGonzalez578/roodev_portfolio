@@ -1,6 +1,6 @@
 footer{
     padding: 0 8em 0 12em;
-    background-color: var(--blue);
+    background-color: var(--background-footer);
 }
 h4{
     margin-bottom: 1em;
