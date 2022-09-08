@@ -24,6 +24,7 @@
 .item .column-2 p{
     width: 95%;
     font-size: 1em;
+    color: var(--black);
 }
 
 /************************ TABLET ************************/
