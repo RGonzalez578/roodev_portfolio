@@ -10,7 +10,7 @@ export interface Gallery{
   type: string
   title: string
   description: string
-  img: string
+  uriImg: string
 }
 
 export interface ProjectInterface{

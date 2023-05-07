@@ -103,5 +103,8 @@
       }
     }
   },
-  "defaultProject": "roodev_portfolio"
+  "defaultProject": "roodev_portfolio",
+  "cli": {
+    "analytics": false
+  }
 }

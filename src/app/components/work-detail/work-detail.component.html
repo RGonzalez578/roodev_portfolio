@@ -53,14 +53,14 @@
                     <div *ngFor="let item of project.gallery; let i = index" class="gallery-item">
                         <!-- Button trigger modal -->
                         <div class="gallery-item" data-bs-toggle="modal" attr.data-bs-target="#modal{{ item.id }}">
-                            <img src="{{ item.img }}" alt="{{ item.title }}">
+                            <img src="{{ item.uriImg }}" alt="{{ item.title }}">
                         </div>
                         
                         <!-- Modal -->
                         <div class="modal fade" id="modal{{ item.id }}" tabindex="-1" attr.aria-labelledby="labelFor{{ item.id }}" aria-hidden="true">
                             <div class="modal-dialog modal-dialog-centered">
                                 <div class="modal-content {{ item.type }}">
-                                    <img src="{{ item.img }}" alt="{{ item.title }}">
+                                    <img src="{{ item.uriImg }}" alt="{{ item.title }}">
                                     <!--<div class="gallery-info">
                                         <div class="gallery-info-title">
                                             <h5 id="labelFor{{ item.id }}">{{ item.title }}</h5>
