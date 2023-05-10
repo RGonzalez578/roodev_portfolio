@@ -1,81 +1,96 @@
 /* You can add global styles to this file, and also import other style files */
-:root{
+:root {
     /*Colors*/
-    --orange:#FFB800;
-    --light-blue:#11BADE;
-    --blue:#2943A7;
-    --purple:#871BC9;
-    --white:#FAFAFA;
-    --grey:#EBEBEB;
-    --dark-grey:#555555;
-    --black:#282828;
-    --background:#FAFAFA;
-    --background-navbar:#11BADE;
-    --background-footer:#2943A7;
+    --orange: #FFB800;
+    --light-blue: #11BADE;
+    --blue: #2943A7;
+    --purple: #871BC9;
+    --white: #FAFAFA;
+    --grey: #EBEBEB;
+    --dark-grey: #555555;
+    --black: #282828;
+    --background: #FAFAFA;
+    --background-navbar: #11BADE;
+    --background-footer: #2943A7;
     --item-work-gallery-hover: #11BADE;
     --background-scrollbar: #FAFAFA;
     --technology-item: #EBEBEB;
 
-    --font-color-white:#FAFAFA;
-    --font-color-black:#282828;
-    --font-color-orange:#FFB800;
-    --font-color-blue:#11BADE;
+    --font-color-white: #FAFAFA;
+    --font-color-black: #282828;
+    --font-color-orange: #FFB800;
+    --font-color-blue: #11BADE;
 }
+
 @font-face {
     font-family: Poppins-bold;
     src: url(./assets/fonts/poppins/Poppins-Bold.woff) format('woff');
     font-display: swap;
 }
+
 @font-face {
     font-family: Poppins-mid;
     src: url(./assets/fonts/poppins/Poppins-Medium.woff) format('woff');
     font-display: swap;
 }
+
 @font-face {
     font-family: Worksans;
     src: url(./assets/fonts/work_sans/WorkSans-Regular.woff) format('woff');
     font-display: swap;
 }
-*{
+
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-html{
+
+html {
     background-color: var(--background);
 }
-body{
+
+body {
     background-color: var(--background);
     font-family: Worksans;
     color: var(--font-color-black);
 }
-body::-webkit-scrollbar{
+
+body::-webkit-scrollbar {
     width: .4em;
     background-color: var(--white);
 }
-::-webkit-scrollbar-thumb{
+
+::-webkit-scrollbar-thumb {
     border-radius: 2em;
     background-color: var(--light-blue);
 }
-::-webkit-scrollbar-track{
+
+::-webkit-scrollbar-track {
     border-radius: 0;
     background-color: var(--background-scrollbar);
 }
-h1{
+
+h1 {
     font-family: Poppins-bold;
 }
-h2{
+
+h2 {
     font-family: Poppins-bold;
 }
-h3{
+
+h3 {
     font-family: Poppins-bold;
 }
-h4{
+
+h4 {
     font-family: Poppins-bold;
 }
-p{
+
+p {
     font-family: Worksans;
 }
-.row{
+
+.row {
     margin: 0;
 }
